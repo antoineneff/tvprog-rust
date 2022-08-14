@@ -1,0 +1,12 @@
+[package]
+name = "tvprog-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.22"
+quick-xml = { version = "0.23.0", features = ["serialize"] }
+reqwest = { version = "0.11.11", features = ["blocking"] }
+serde = { version = "1.0.143", features = ["derive"] }
